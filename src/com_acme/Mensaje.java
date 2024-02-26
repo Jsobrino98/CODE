@@ -10,7 +10,7 @@ public class Mensaje {
         return teclado.nextLine();
     }
 
-    public void saludar(String nombre) {
-        System.out.println("Hola %s, benvido a Java \n" + nombre);
+    public void saludar(Persona p) {
+        System.out.println("Hola %s, benvido a Java \n" + p);
     }
 }
